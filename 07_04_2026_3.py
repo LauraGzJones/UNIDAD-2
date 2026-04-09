@@ -13,15 +13,16 @@ n3 = int(input("Ingresa el tercer número: "))
 #revisamos el numero 1 
 if n1 > n2:  
   if n1 > n3: 
-    print ("El numero mayor es el:",n1 ) # si n1 es mayor que  n2 y n3 se cumple la condicion 
+    print (f'El numero mayor es el:,{n1}' ) # si n1 es mayor que  n2 y n3 se cumple la condicion 
   else:              
-    print( "El numero mayor es el :" ,n3 ) 
+    print( f'El numero mayor es el : ,{n3}') 
+    
 else: 
    if n2> n1: # si n2 es mayor que n1 y n3 se cumpliria la condicion 
      if n2 > n3:
-      print("El numero mayor es el: ", n2)
+      print(f'El numero mayor es el: , {n2}')
      else: # si ninguna se cumple es el n3 el mayor
-       print ("El numero mayor es el:", n3)
+       print (f'El numero mayor es el:, {n3}')
  
   
 
