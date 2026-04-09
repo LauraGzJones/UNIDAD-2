@@ -1,11 +1,11 @@
 edad = 0
-edad = int(input("Ingresa tu edad: ")) 
+edad = float(input("Ingresa tu edad: ")) 
 
 if edad < 0: # si la edad es menor a 0 se considera una edad no válida osea 
-    # no acepta edades negativas
+    # no acepta edades negativaso
     print("La edad no puede ser negativa")
 else:
-    if edad != int(edad): # si la edad no es un número entero se considera una edad no válida con
+    if edad != float(edad): # si la edad no es un número entero se considera una edad no válida con
         # el uso de !=
         print("Edad no válida")
     else:
@@ -21,14 +21,5 @@ else:
 
 
 
-        #opcio 1 que esta mala 
-        edad = 0 
-        edad = int (input("Ingresa tu edad: "))
-        if edad <0: 
-            print("La edad no puede ser menor que 0")
-        else: 
-            if edad >= 18: 
-                print("Eres mayor de edad")
-            else:
-                print("No eres mayor de edad")
+        
     # if edad 

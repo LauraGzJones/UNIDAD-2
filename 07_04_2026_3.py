@@ -1,6 +1,6 @@
 #Desarrolle un programa que permita ingresar 3 números y desplegar siempre el mayor. 
 
- # Nota: haga simulaciones con 3 números diferentes 
+ #Nota: haga simulaciones con 3 números diferentes 
 # Declarar las variables
 n1 = 0 
 n2 = 0

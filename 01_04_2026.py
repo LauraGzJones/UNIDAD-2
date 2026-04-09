@@ -6,9 +6,9 @@ n2 = 0
 n3 = 0
 pro = 0
 
-n1 = float(input("Ing. 1ra nota :"))
-n2 = float(input("Ing. 2da nota :"))
-n3 = float(input("Ing. 3ra nota :"))
+n1 = int(input("Ing. 1ra nota :"))
+n2 = int(input("Ing. 2da nota :"))
+n3 = int(input("Ing. 3ra nota :"))
 
 pro = (n1 + n2 + n3) / 3
 #print(f"Promedio {pro}") # imprime promedio 

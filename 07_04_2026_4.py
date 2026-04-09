@@ -22,7 +22,9 @@ else:
 
 # comparar con el numero 3  
 if numero_3 < menor:
-    print( "Numeros ordenados de menor a mayor :", numero_3, menor, mayor)else:
+    print( "Numeros ordenados de menor a mayor :", numero_3, menor, mayor)
+    
+else:
     if numero_3 > mayor:
         print("Numeros ordenados de menor a mayor:",menor, mayor, numero_3)
     else:
