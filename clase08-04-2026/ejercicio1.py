@@ -18,10 +18,10 @@ if num1 > num2:
        print (" La resta de los dos numeros ingresados es: ",resta )
 else: 
        if num1 < num2: 
-       multiplicacion = num1 * num2
-       print ("La multiplicacion de los dos numeros ingresados es: " ,multiplicacion )
+              multiplicacion = num1 * num2
+              print ("La multiplicacion de los dos numeros ingresados es: " ,multiplicacion )
        if num1 == num2: 
-       suma = num1 + num2
-       print("La suma de los dos numeros ingresados es : ",suma)
+              suma = num1 + num2
+              print("La suma de los dos numeros ingresados es : ", suma)
        
 
