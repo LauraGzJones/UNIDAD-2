@@ -57,8 +57,6 @@ else:
 
 edad = int(input("Edad : "))
 
-ad = int(input("Edad : "))
-
 if edad > 0 and edad < 130: # 0 < edad < 130
    if edad <= 18:
       print("mayor")
