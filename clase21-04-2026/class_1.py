@@ -4,13 +4,13 @@ mayor de ellos
 
 '''
 num  = 0 
-contador = 0 
+contador = 1
 mayor = 0
 
  # while 
 
 while contador < 10:
-    num = int(input("hola, a continuacion ingresa 10 numeros: "))
+    num = int(input(f"hola, a continuacion ingresa el numero {contador}: "))
     if num > mayor:
         mayor = num      
     contador = contador + 1   
