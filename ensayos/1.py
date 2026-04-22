@@ -1,4 +1,12 @@
-x = 1
-while x <= 10: # condición 
-    print(x)
-    x = x + 1
+contador = 1
+while contador <= 10: 
+    print(contador)
+    contador = contador + 1
+
+
+
+
+
+
+
+    
